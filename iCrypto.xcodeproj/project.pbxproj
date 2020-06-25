@@ -63,6 +63,24 @@
 		3B7CC13C24A4E6EE00CB8476 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7CC13B24A4E6EE00CB8476 /* Colors.xcassets */; };
 		3B7CC14024A4EC1200CB8476 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC13F24A4EC1200CB8476 /* R.generated.swift */; };
 		3B7CC14224A4F50D00CB8476 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC14124A4F50D00CB8476 /* Log.swift */; };
+		3B7CC15624A4FA8E00CB8476 /* DashboardInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC15124A4FA8E00CB8476 /* DashboardInterfaces.swift */; };
+		3B7CC15724A4FA8E00CB8476 /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC15224A4FA8E00CB8476 /* DashboardPresenter.swift */; };
+		3B7CC15824A4FA8E00CB8476 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC15324A4FA8E00CB8476 /* DashboardViewController.swift */; };
+		3B7CC15924A4FA8E00CB8476 /* DashboardWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC15424A4FA8E00CB8476 /* DashboardWireframe.swift */; };
+		3B7CC16224A4FAA900CB8476 /* Wallets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7CC15B24A4FAA900CB8476 /* Wallets.storyboard */; };
+		3B7CC16324A4FAA900CB8476 /* WalletsInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC15C24A4FAA900CB8476 /* WalletsInterfaces.swift */; };
+		3B7CC16424A4FAA900CB8476 /* WalletsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC15D24A4FAA900CB8476 /* WalletsPresenter.swift */; };
+		3B7CC16524A4FAA900CB8476 /* WalletsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC15E24A4FAA900CB8476 /* WalletsViewController.swift */; };
+		3B7CC16624A4FAA900CB8476 /* WalletsFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC15F24A4FAA900CB8476 /* WalletsFormatter.swift */; };
+		3B7CC16724A4FAA900CB8476 /* WalletsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC16024A4FAA900CB8476 /* WalletsInteractor.swift */; };
+		3B7CC16824A4FAA900CB8476 /* WalletsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC16124A4FAA900CB8476 /* WalletsWireframe.swift */; };
+		3B7CC17124A4FAD000CB8476 /* Charts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7CC16A24A4FAD000CB8476 /* Charts.storyboard */; };
+		3B7CC17224A4FAD000CB8476 /* ChartsInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC16B24A4FAD000CB8476 /* ChartsInterfaces.swift */; };
+		3B7CC17324A4FAD000CB8476 /* ChartsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC16C24A4FAD000CB8476 /* ChartsPresenter.swift */; };
+		3B7CC17424A4FAD000CB8476 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC16D24A4FAD000CB8476 /* ChartsViewController.swift */; };
+		3B7CC17524A4FAD000CB8476 /* ChartsFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC16E24A4FAD000CB8476 /* ChartsFormatter.swift */; };
+		3B7CC17624A4FAD000CB8476 /* ChartsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC16F24A4FAD000CB8476 /* ChartsInteractor.swift */; };
+		3B7CC17724A4FAD000CB8476 /* ChartsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC17024A4FAD000CB8476 /* ChartsWireframe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +145,24 @@
 		3B7CC13B24A4E6EE00CB8476 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		3B7CC13F24A4EC1200CB8476 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = Generated/R.generated.swift; sourceTree = SOURCE_ROOT; };
 		3B7CC14124A4F50D00CB8476 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		3B7CC15124A4FA8E00CB8476 /* DashboardInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInterfaces.swift; sourceTree = "<group>"; };
+		3B7CC15224A4FA8E00CB8476 /* DashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
+		3B7CC15324A4FA8E00CB8476 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		3B7CC15424A4FA8E00CB8476 /* DashboardWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardWireframe.swift; sourceTree = "<group>"; };
+		3B7CC15B24A4FAA900CB8476 /* Wallets.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Wallets.storyboard; sourceTree = "<group>"; };
+		3B7CC15C24A4FAA900CB8476 /* WalletsInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsInterfaces.swift; sourceTree = "<group>"; };
+		3B7CC15D24A4FAA900CB8476 /* WalletsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsPresenter.swift; sourceTree = "<group>"; };
+		3B7CC15E24A4FAA900CB8476 /* WalletsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsViewController.swift; sourceTree = "<group>"; };
+		3B7CC15F24A4FAA900CB8476 /* WalletsFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsFormatter.swift; sourceTree = "<group>"; };
+		3B7CC16024A4FAA900CB8476 /* WalletsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsInteractor.swift; sourceTree = "<group>"; };
+		3B7CC16124A4FAA900CB8476 /* WalletsWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsWireframe.swift; sourceTree = "<group>"; };
+		3B7CC16A24A4FAD000CB8476 /* Charts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Charts.storyboard; sourceTree = "<group>"; };
+		3B7CC16B24A4FAD000CB8476 /* ChartsInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsInterfaces.swift; sourceTree = "<group>"; };
+		3B7CC16C24A4FAD000CB8476 /* ChartsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsPresenter.swift; sourceTree = "<group>"; };
+		3B7CC16D24A4FAD000CB8476 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		3B7CC16E24A4FAD000CB8476 /* ChartsFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsFormatter.swift; sourceTree = "<group>"; };
+		3B7CC16F24A4FAD000CB8476 /* ChartsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsInteractor.swift; sourceTree = "<group>"; };
+		3B7CC17024A4FAD000CB8476 /* ChartsWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsWireframe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -385,6 +421,9 @@
 		3B7CC13924A4E6C400CB8476 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				3B7CC16924A4FAC100CB8476 /* Charts */,
+				3B7CC15A24A4FA9200CB8476 /* Wallets */,
+				3B7CC14324A4F9F300CB8476 /* Dashboard */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -413,6 +452,45 @@
 			children = (
 			);
 			path = Database;
+			sourceTree = "<group>";
+		};
+		3B7CC14324A4F9F300CB8476 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				3B7CC15124A4FA8E00CB8476 /* DashboardInterfaces.swift */,
+				3B7CC15224A4FA8E00CB8476 /* DashboardPresenter.swift */,
+				3B7CC15324A4FA8E00CB8476 /* DashboardViewController.swift */,
+				3B7CC15424A4FA8E00CB8476 /* DashboardWireframe.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		3B7CC15A24A4FA9200CB8476 /* Wallets */ = {
+			isa = PBXGroup;
+			children = (
+				3B7CC15B24A4FAA900CB8476 /* Wallets.storyboard */,
+				3B7CC15C24A4FAA900CB8476 /* WalletsInterfaces.swift */,
+				3B7CC15D24A4FAA900CB8476 /* WalletsPresenter.swift */,
+				3B7CC15E24A4FAA900CB8476 /* WalletsViewController.swift */,
+				3B7CC15F24A4FAA900CB8476 /* WalletsFormatter.swift */,
+				3B7CC16024A4FAA900CB8476 /* WalletsInteractor.swift */,
+				3B7CC16124A4FAA900CB8476 /* WalletsWireframe.swift */,
+			);
+			path = Wallets;
+			sourceTree = "<group>";
+		};
+		3B7CC16924A4FAC100CB8476 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				3B7CC16A24A4FAD000CB8476 /* Charts.storyboard */,
+				3B7CC16B24A4FAD000CB8476 /* ChartsInterfaces.swift */,
+				3B7CC16C24A4FAD000CB8476 /* ChartsPresenter.swift */,
+				3B7CC16D24A4FAD000CB8476 /* ChartsViewController.swift */,
+				3B7CC16E24A4FAD000CB8476 /* ChartsFormatter.swift */,
+				3B7CC16F24A4FAD000CB8476 /* ChartsInteractor.swift */,
+				3B7CC17024A4FAD000CB8476 /* ChartsWireframe.swift */,
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -520,8 +598,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B7CC13C24A4E6EE00CB8476 /* Colors.xcassets in Resources */,
+				3B7CC17124A4FAD000CB8476 /* Charts.storyboard in Resources */,
 				3B6FB358247D7FD2002865DF /* LaunchScreen.storyboard in Resources */,
 				3B6FB355247D7FD2002865DF /* Assets.xcassets in Resources */,
+				3B7CC16224A4FAA900CB8476 /* Wallets.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,8 +681,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B7CC11924A4E6B400CB8476 /* NavigationBarVisible.swift in Sources */,
+				3B7CC17424A4FAD000CB8476 /* ChartsViewController.swift in Sources */,
+				3B7CC15824A4FA8E00CB8476 /* DashboardViewController.swift in Sources */,
+				3B7CC17624A4FAD000CB8476 /* ChartsInteractor.swift in Sources */,
 				3B7CC11824A4E6B400CB8476 /* AppFont.swift in Sources */,
 				3B7CC14224A4F50D00CB8476 /* Log.swift in Sources */,
+				3B7CC17724A4FAD000CB8476 /* ChartsWireframe.swift in Sources */,
 				3B6FB353247D7FD1002865DF /* iCrypto.xcdatamodeld in Sources */,
 				3B7CC11A24A4E6B400CB8476 /* HasLoadingIndicator.swift in Sources */,
 				3B7CC12324A4E6B400CB8476 /* UIStoryboardExtension.swift in Sources */,
@@ -617,29 +701,41 @@
 				3B7CC12124A4E6B400CB8476 /* BaseWireframe.swift in Sources */,
 				3B7CC11424A4E6B400CB8476 /* CommonInitializer.swift in Sources */,
 				3B7CC11524A4E6B400CB8476 /* Utilities.swift in Sources */,
+				3B7CC16324A4FAA900CB8476 /* WalletsInterfaces.swift in Sources */,
 				3B7CC10A24A4E6B400CB8476 /* Constant.swift in Sources */,
+				3B7CC17224A4FAD000CB8476 /* ChartsInterfaces.swift in Sources */,
+				3B7CC16424A4FAA900CB8476 /* WalletsPresenter.swift in Sources */,
 				3B7CC12224A4E6B400CB8476 /* FormatterInterface.swift in Sources */,
 				3B7CC13324A4E6B400CB8476 /* UserDefaultService.swift in Sources */,
+				3B7CC15924A4FA8E00CB8476 /* DashboardWireframe.swift in Sources */,
 				3B7CC13624A4E6B400CB8476 /* BaseTableViewCell.swift in Sources */,
 				3B7CC10F24A4E6B400CB8476 /* AppDelegate.swift in Sources */,
 				3B7CC12524A4E6B400CB8476 /* ViewInterface.swift in Sources */,
 				3B7CC11324A4E6B400CB8476 /* NetworkInitializer.swift in Sources */,
+				3B7CC15624A4FA8E00CB8476 /* DashboardInterfaces.swift in Sources */,
 				3B7CC11D24A4E6B400CB8476 /* UIButton.swift in Sources */,
 				3B7CC12724A4E6B400CB8476 /* RoundShadowView.swift in Sources */,
+				3B7CC16524A4FAA900CB8476 /* WalletsViewController.swift in Sources */,
 				3B7CC12A24A4E6B400CB8476 /* LoadingView.swift in Sources */,
+				3B7CC16724A4FAA900CB8476 /* WalletsInteractor.swift in Sources */,
+				3B7CC16824A4FAA900CB8476 /* WalletsWireframe.swift in Sources */,
 				3B7CC10E24A4E6B400CB8476 /* ApplicationService.swift in Sources */,
 				3B7CC11224A4E6B400CB8476 /* LoggerInitializer.swift in Sources */,
 				3B7CC11E24A4E6B400CB8476 /* UIViewController.swift in Sources */,
 				3B7CC11724A4E6B400CB8476 /* BaseXibView.swift in Sources */,
+				3B7CC16624A4FAA900CB8476 /* WalletsFormatter.swift in Sources */,
 				3B7CC12424A4E6B400CB8476 /* PresenterInterface.swift in Sources */,
 				3B7CC11F24A4E6B400CB8476 /* UINavigationController.swift in Sources */,
+				3B7CC17324A4FAD000CB8476 /* ChartsPresenter.swift in Sources */,
 				3B7CC10C24A4E6B400CB8476 /* PluggableApplicationDelegate.swift in Sources */,
 				3B7CC11124A4E6B400CB8476 /* CrashReporterInitializer.swift in Sources */,
+				3B7CC17524A4FAD000CB8476 /* ChartsFormatter.swift in Sources */,
 				3B7CC11624A4E6B400CB8476 /* typealias.swift in Sources */,
 				3B7CC13724A4E6B400CB8476 /* BaseCollectionViewCell.swift in Sources */,
 				3B7CC11B24A4E6B400CB8476 /* NSObject.swift in Sources */,
 				3B7CC12D24A4E6B400CB8476 /* APIErrorResponse.swift in Sources */,
 				3B7CC12F24A4E6B400CB8476 /* APIListResponse.swift in Sources */,
+				3B7CC15724A4FA8E00CB8476 /* DashboardPresenter.swift in Sources */,
 				3B7CC11024A4E6B400CB8476 /* Initializable.swift in Sources */,
 				3B7CC11C24A4E6B400CB8476 /* Encodable.swift in Sources */,
 				3B7CC12E24A4E6B400CB8476 /* APIResponse.swift in Sources */,
