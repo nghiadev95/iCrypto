@@ -1,0 +1,4 @@
+excluded:
+  - Generated
+  - Carthage
+line_length: 200
