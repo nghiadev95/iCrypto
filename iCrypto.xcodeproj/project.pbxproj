@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B22A30C24FA976A00380640 /* SwiftRichString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B22A30B24FA976A00380640 /* SwiftRichString.swift */; };
+		3B22A30E24FA990700380640 /* ThemeInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B22A30D24FA990700380640 /* ThemeInitializer.swift */; };
+		3B48693824FD4E37004D4F5D /* ListCurrenciesTicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B48693224FD4E37004D4F5D /* ListCurrenciesTicker.storyboard */; };
+		3B48693924FD4E37004D4F5D /* ListCurrenciesTickerInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48693324FD4E37004D4F5D /* ListCurrenciesTickerInterfaces.swift */; };
+		3B48693A24FD4E37004D4F5D /* ListCurrenciesTickerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48693424FD4E37004D4F5D /* ListCurrenciesTickerPresenter.swift */; };
+		3B48693B24FD4E37004D4F5D /* ListCurrenciesTickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48693524FD4E37004D4F5D /* ListCurrenciesTickerViewController.swift */; };
+		3B48693C24FD4E37004D4F5D /* ListCurrenciesTickerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48693624FD4E37004D4F5D /* ListCurrenciesTickerInteractor.swift */; };
+		3B48693D24FD4E37004D4F5D /* ListCurrenciesTickerWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48693724FD4E37004D4F5D /* ListCurrenciesTickerWireframe.swift */; };
+		3B48694024FD53B2004D4F5D /* SwifterSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3B48693F24FD53B2004D4F5D /* SwifterSwift */; };
 		3B6FB353247D7FD1002865DF /* iCrypto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B6FB351247D7FD1002865DF /* iCrypto.xcdatamodeld */; };
 		3B6FB355247D7FD2002865DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6FB354247D7FD2002865DF /* Assets.xcassets */; };
 		3B6FB358247D7FD2002865DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6FB356247D7FD2002865DF /* LaunchScreen.storyboard */; };
-		3B7CC0A324A4E0AB00CB8476 /* RxSwiftExt in Frameworks */ = {isa = PBXBuildFile; productRef = 3B7CC0A224A4E0AB00CB8476 /* RxSwiftExt */; };
-		3B7CC0A624A4E15300CB8476 /* TEQNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 3B7CC0A524A4E15300CB8476 /* TEQNetwork */; };
-		3B7CC0A924A4E18B00CB8476 /* Rswift in Frameworks */ = {isa = PBXBuildFile; productRef = 3B7CC0A824A4E18B00CB8476 /* Rswift */; };
-		3B7CC0AC24A4E1A400CB8476 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 3B7CC0AB24A4E1A400CB8476 /* Then */; };
-		3B7CC0AF24A4E1BD00CB8476 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 3B7CC0AE24A4E1BD00CB8476 /* RxRelay */; };
-		3B7CC0B124A4E1BD00CB8476 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3B7CC0B024A4E1BD00CB8476 /* RxSwift */; };
-		3B7CC0B324A4E1BD00CB8476 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 3B7CC0B224A4E1BD00CB8476 /* RxCocoa */; };
-		3B7CC0B924A4E1FA00CB8476 /* SwiftRichString in Frameworks */ = {isa = PBXBuildFile; productRef = 3B7CC0B824A4E1FA00CB8476 /* SwiftRichString */; };
-		3B7CC0BC24A4E21B00CB8476 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3B7CC0BB24A4E21B00CB8476 /* SnapKit */; };
 		3B7CC0C224A4E53100CB8476 /* FLEX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7CC0C124A4E53100CB8476 /* FLEX.framework */; };
 		3B7CC10A24A4E6B400CB8476 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC0C624A4E6B300CB8476 /* Constant.swift */; };
 		3B7CC10B24A4E6B400CB8476 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC0C824A4E6B300CB8476 /* CoreDataService.swift */; };
@@ -63,17 +63,6 @@
 		3B7CC13C24A4E6EE00CB8476 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7CC13B24A4E6EE00CB8476 /* Colors.xcassets */; };
 		3B7CC14024A4EC1200CB8476 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC13F24A4EC1200CB8476 /* R.generated.swift */; };
 		3B7CC14224A4F50D00CB8476 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC14124A4F50D00CB8476 /* Log.swift */; };
-		3B7CC15624A4FA8E00CB8476 /* DashboardInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC15124A4FA8E00CB8476 /* DashboardInterfaces.swift */; };
-		3B7CC15724A4FA8E00CB8476 /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC15224A4FA8E00CB8476 /* DashboardPresenter.swift */; };
-		3B7CC15824A4FA8E00CB8476 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC15324A4FA8E00CB8476 /* DashboardViewController.swift */; };
-		3B7CC15924A4FA8E00CB8476 /* DashboardWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC15424A4FA8E00CB8476 /* DashboardWireframe.swift */; };
-		3B7CC16224A4FAA900CB8476 /* Wallets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7CC15B24A4FAA900CB8476 /* Wallets.storyboard */; };
-		3B7CC16324A4FAA900CB8476 /* WalletsInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC15C24A4FAA900CB8476 /* WalletsInterfaces.swift */; };
-		3B7CC16424A4FAA900CB8476 /* WalletsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC15D24A4FAA900CB8476 /* WalletsPresenter.swift */; };
-		3B7CC16524A4FAA900CB8476 /* WalletsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC15E24A4FAA900CB8476 /* WalletsViewController.swift */; };
-		3B7CC16624A4FAA900CB8476 /* WalletsFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC15F24A4FAA900CB8476 /* WalletsFormatter.swift */; };
-		3B7CC16724A4FAA900CB8476 /* WalletsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC16024A4FAA900CB8476 /* WalletsInteractor.swift */; };
-		3B7CC16824A4FAA900CB8476 /* WalletsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC16124A4FAA900CB8476 /* WalletsWireframe.swift */; };
 		3B7CC17124A4FAD000CB8476 /* Charts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7CC16A24A4FAD000CB8476 /* Charts.storyboard */; };
 		3B7CC17224A4FAD000CB8476 /* ChartsInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC16B24A4FAD000CB8476 /* ChartsInterfaces.swift */; };
 		3B7CC17324A4FAD000CB8476 /* ChartsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC16C24A4FAD000CB8476 /* ChartsPresenter.swift */; };
@@ -81,6 +70,14 @@
 		3B7CC17524A4FAD000CB8476 /* ChartsFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC16E24A4FAD000CB8476 /* ChartsFormatter.swift */; };
 		3B7CC17624A4FAD000CB8476 /* ChartsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC16F24A4FAD000CB8476 /* ChartsInteractor.swift */; };
 		3B7CC17724A4FAD000CB8476 /* ChartsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC17024A4FAD000CB8476 /* ChartsWireframe.swift */; };
+		3BBAF13424F40A7400FC198F /* RxSwiftExt in Frameworks */ = {isa = PBXBuildFile; productRef = 3BBAF13324F40A7400FC198F /* RxSwiftExt */; };
+		3BBAF13624F40A7400FC198F /* Rswift in Frameworks */ = {isa = PBXBuildFile; productRef = 3BBAF13524F40A7400FC198F /* Rswift */; };
+		3BBAF13824F40A7400FC198F /* SwiftRichString in Frameworks */ = {isa = PBXBuildFile; productRef = 3BBAF13724F40A7400FC198F /* SwiftRichString */; };
+		3BBAF13A24F40A7400FC198F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3BBAF13924F40A7400FC198F /* SnapKit */; };
+		3BBAF13C24F40A7400FC198F /* DevelopKits in Frameworks */ = {isa = PBXBuildFile; productRef = 3BBAF13B24F40A7400FC198F /* DevelopKits */; };
+		3BBAF13E24F40A7400FC198F /* RequestKits in Frameworks */ = {isa = PBXBuildFile; productRef = 3BBAF13D24F40A7400FC198F /* RequestKits */; };
+		3BC800F624FD41AF00CB39FB /* CurrenciesTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC800F524FD41AF00CB39FB /* CurrenciesTicker.swift */; };
+		3BC800F824FD448000CB39FB /* ErrorShowable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC800F724FD448000CB39FB /* ErrorShowable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +91,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B22A30B24FA976A00380640 /* SwiftRichString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRichString.swift; sourceTree = "<group>"; };
+		3B22A30D24FA990700380640 /* ThemeInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeInitializer.swift; sourceTree = "<group>"; };
+		3B48693224FD4E37004D4F5D /* ListCurrenciesTicker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListCurrenciesTicker.storyboard; sourceTree = "<group>"; };
+		3B48693324FD4E37004D4F5D /* ListCurrenciesTickerInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCurrenciesTickerInterfaces.swift; sourceTree = "<group>"; };
+		3B48693424FD4E37004D4F5D /* ListCurrenciesTickerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCurrenciesTickerPresenter.swift; sourceTree = "<group>"; };
+		3B48693524FD4E37004D4F5D /* ListCurrenciesTickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCurrenciesTickerViewController.swift; sourceTree = "<group>"; };
+		3B48693624FD4E37004D4F5D /* ListCurrenciesTickerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCurrenciesTickerInteractor.swift; sourceTree = "<group>"; };
+		3B48693724FD4E37004D4F5D /* ListCurrenciesTickerWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCurrenciesTickerWireframe.swift; sourceTree = "<group>"; };
 		3B6FB345247D7FD1002865DF /* iCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6FB352247D7FD1002865DF /* iCrypto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iCrypto.xcdatamodel; sourceTree = "<group>"; };
 		3B6FB354247D7FD2002865DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -145,17 +150,6 @@
 		3B7CC13B24A4E6EE00CB8476 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		3B7CC13F24A4EC1200CB8476 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = Generated/R.generated.swift; sourceTree = SOURCE_ROOT; };
 		3B7CC14124A4F50D00CB8476 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
-		3B7CC15124A4FA8E00CB8476 /* DashboardInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInterfaces.swift; sourceTree = "<group>"; };
-		3B7CC15224A4FA8E00CB8476 /* DashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
-		3B7CC15324A4FA8E00CB8476 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
-		3B7CC15424A4FA8E00CB8476 /* DashboardWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardWireframe.swift; sourceTree = "<group>"; };
-		3B7CC15B24A4FAA900CB8476 /* Wallets.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Wallets.storyboard; sourceTree = "<group>"; };
-		3B7CC15C24A4FAA900CB8476 /* WalletsInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsInterfaces.swift; sourceTree = "<group>"; };
-		3B7CC15D24A4FAA900CB8476 /* WalletsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsPresenter.swift; sourceTree = "<group>"; };
-		3B7CC15E24A4FAA900CB8476 /* WalletsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsViewController.swift; sourceTree = "<group>"; };
-		3B7CC15F24A4FAA900CB8476 /* WalletsFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsFormatter.swift; sourceTree = "<group>"; };
-		3B7CC16024A4FAA900CB8476 /* WalletsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsInteractor.swift; sourceTree = "<group>"; };
-		3B7CC16124A4FAA900CB8476 /* WalletsWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsWireframe.swift; sourceTree = "<group>"; };
 		3B7CC16A24A4FAD000CB8476 /* Charts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Charts.storyboard; sourceTree = "<group>"; };
 		3B7CC16B24A4FAD000CB8476 /* ChartsInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsInterfaces.swift; sourceTree = "<group>"; };
 		3B7CC16C24A4FAD000CB8476 /* ChartsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsPresenter.swift; sourceTree = "<group>"; };
@@ -163,6 +157,8 @@
 		3B7CC16E24A4FAD000CB8476 /* ChartsFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsFormatter.swift; sourceTree = "<group>"; };
 		3B7CC16F24A4FAD000CB8476 /* ChartsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsInteractor.swift; sourceTree = "<group>"; };
 		3B7CC17024A4FAD000CB8476 /* ChartsWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsWireframe.swift; sourceTree = "<group>"; };
+		3BC800F524FD41AF00CB39FB /* CurrenciesTicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesTicker.swift; sourceTree = "<group>"; };
+		3BC800F724FD448000CB39FB /* ErrorShowable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorShowable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,16 +166,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B7CC0B124A4E1BD00CB8476 /* RxSwift in Frameworks */,
-				3B7CC0AF24A4E1BD00CB8476 /* RxRelay in Frameworks */,
-				3B7CC0A924A4E18B00CB8476 /* Rswift in Frameworks */,
-				3B7CC0B324A4E1BD00CB8476 /* RxCocoa in Frameworks */,
-				3B7CC0A624A4E15300CB8476 /* TEQNetwork in Frameworks */,
+				3BBAF13624F40A7400FC198F /* Rswift in Frameworks */,
+				3BBAF13E24F40A7400FC198F /* RequestKits in Frameworks */,
+				3BBAF13824F40A7400FC198F /* SwiftRichString in Frameworks */,
+				3BBAF13424F40A7400FC198F /* RxSwiftExt in Frameworks */,
+				3BBAF13C24F40A7400FC198F /* DevelopKits in Frameworks */,
+				3B48694024FD53B2004D4F5D /* SwifterSwift in Frameworks */,
 				3B7CC0C224A4E53100CB8476 /* FLEX.framework in Frameworks */,
-				3B7CC0A324A4E0AB00CB8476 /* RxSwiftExt in Frameworks */,
-				3B7CC0B924A4E1FA00CB8476 /* SwiftRichString in Frameworks */,
-				3B7CC0AC24A4E1A400CB8476 /* Then in Frameworks */,
-				3B7CC0BC24A4E21B00CB8476 /* SnapKit in Frameworks */,
+				3BBAF13A24F40A7400FC198F /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +266,7 @@
 				3B7CC0D024A4E6B300CB8476 /* LoggerInitializer.swift */,
 				3B7CC0D124A4E6B300CB8476 /* NetworkInitializer.swift */,
 				3B7CC0D224A4E6B300CB8476 /* CommonInitializer.swift */,
+				3B22A30D24FA990700380640 /* ThemeInitializer.swift */,
 			);
 			path = Initializers;
 			sourceTree = "<group>";
@@ -307,6 +302,7 @@
 			children = (
 				3B7CC0DA24A4E6B400CB8476 /* NavigationBarVisible.swift */,
 				3B7CC0DB24A4E6B400CB8476 /* HasLoadingIndicator.swift */,
+				3BC800F724FD448000CB39FB /* ErrorShowable.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -319,6 +315,7 @@
 				3B7CC0DF24A4E6B400CB8476 /* UIButton.swift */,
 				3B7CC0E024A4E6B400CB8476 /* UIViewController.swift */,
 				3B7CC0E124A4E6B400CB8476 /* UINavigationController.swift */,
+				3B22A30B24FA976A00380640 /* SwiftRichString.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -358,6 +355,7 @@
 		3B7CC0F124A4E6B400CB8476 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				3BC800F424FD3E5100CB39FB /* Wallet */,
 				3B7CC0F624A4E6B400CB8476 /* Models */,
 			);
 			path = Network;
@@ -421,9 +419,8 @@
 		3B7CC13924A4E6C400CB8476 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				3BC800FD24FD4D5B00CB39FB /* ListCurrenciesTicker */,
 				3B7CC16924A4FAC100CB8476 /* Charts */,
-				3B7CC15A24A4FA9200CB8476 /* Wallets */,
-				3B7CC14324A4F9F300CB8476 /* Dashboard */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -454,31 +451,6 @@
 			path = Database;
 			sourceTree = "<group>";
 		};
-		3B7CC14324A4F9F300CB8476 /* Dashboard */ = {
-			isa = PBXGroup;
-			children = (
-				3B7CC15124A4FA8E00CB8476 /* DashboardInterfaces.swift */,
-				3B7CC15224A4FA8E00CB8476 /* DashboardPresenter.swift */,
-				3B7CC15324A4FA8E00CB8476 /* DashboardViewController.swift */,
-				3B7CC15424A4FA8E00CB8476 /* DashboardWireframe.swift */,
-			);
-			path = Dashboard;
-			sourceTree = "<group>";
-		};
-		3B7CC15A24A4FA9200CB8476 /* Wallets */ = {
-			isa = PBXGroup;
-			children = (
-				3B7CC15B24A4FAA900CB8476 /* Wallets.storyboard */,
-				3B7CC15C24A4FAA900CB8476 /* WalletsInterfaces.swift */,
-				3B7CC15D24A4FAA900CB8476 /* WalletsPresenter.swift */,
-				3B7CC15E24A4FAA900CB8476 /* WalletsViewController.swift */,
-				3B7CC15F24A4FAA900CB8476 /* WalletsFormatter.swift */,
-				3B7CC16024A4FAA900CB8476 /* WalletsInteractor.swift */,
-				3B7CC16124A4FAA900CB8476 /* WalletsWireframe.swift */,
-			);
-			path = Wallets;
-			sourceTree = "<group>";
-		};
 		3B7CC16924A4FAC100CB8476 /* Charts */ = {
 			isa = PBXGroup;
 			children = (
@@ -491,6 +463,27 @@
 				3B7CC17024A4FAD000CB8476 /* ChartsWireframe.swift */,
 			);
 			path = Charts;
+			sourceTree = "<group>";
+		};
+		3BC800F424FD3E5100CB39FB /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				3BC800F524FD41AF00CB39FB /* CurrenciesTicker.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		3BC800FD24FD4D5B00CB39FB /* ListCurrenciesTicker */ = {
+			isa = PBXGroup;
+			children = (
+				3B48693224FD4E37004D4F5D /* ListCurrenciesTicker.storyboard */,
+				3B48693324FD4E37004D4F5D /* ListCurrenciesTickerInterfaces.swift */,
+				3B48693424FD4E37004D4F5D /* ListCurrenciesTickerPresenter.swift */,
+				3B48693524FD4E37004D4F5D /* ListCurrenciesTickerViewController.swift */,
+				3B48693624FD4E37004D4F5D /* ListCurrenciesTickerInteractor.swift */,
+				3B48693724FD4E37004D4F5D /* ListCurrenciesTickerWireframe.swift */,
+			);
+			path = ListCurrenciesTicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -513,15 +506,13 @@
 			);
 			name = iCrypto;
 			packageProductDependencies = (
-				3B7CC0A224A4E0AB00CB8476 /* RxSwiftExt */,
-				3B7CC0A524A4E15300CB8476 /* TEQNetwork */,
-				3B7CC0A824A4E18B00CB8476 /* Rswift */,
-				3B7CC0AB24A4E1A400CB8476 /* Then */,
-				3B7CC0AE24A4E1BD00CB8476 /* RxRelay */,
-				3B7CC0B024A4E1BD00CB8476 /* RxSwift */,
-				3B7CC0B224A4E1BD00CB8476 /* RxCocoa */,
-				3B7CC0B824A4E1FA00CB8476 /* SwiftRichString */,
-				3B7CC0BB24A4E21B00CB8476 /* SnapKit */,
+				3BBAF13324F40A7400FC198F /* RxSwiftExt */,
+				3BBAF13524F40A7400FC198F /* Rswift */,
+				3BBAF13724F40A7400FC198F /* SwiftRichString */,
+				3BBAF13924F40A7400FC198F /* SnapKit */,
+				3BBAF13B24F40A7400FC198F /* DevelopKits */,
+				3BBAF13D24F40A7400FC198F /* RequestKits */,
+				3B48693F24FD53B2004D4F5D /* SwifterSwift */,
 			);
 			productName = iCrypto;
 			productReference = 3B6FB345247D7FD1002865DF /* iCrypto.app */;
@@ -575,12 +566,12 @@
 			mainGroup = 3B6FB33C247D7FD1002865DF;
 			packageReferences = (
 				3B7CC0A124A4E0AB00CB8476 /* XCRemoteSwiftPackageReference "RxSwiftExt" */,
-				3B7CC0A424A4E15300CB8476 /* XCRemoteSwiftPackageReference "teqnetwork" */,
 				3B7CC0A724A4E18B00CB8476 /* XCRemoteSwiftPackageReference "R.swift" */,
-				3B7CC0AA24A4E1A400CB8476 /* XCRemoteSwiftPackageReference "Then" */,
-				3B7CC0AD24A4E1BD00CB8476 /* XCRemoteSwiftPackageReference "RxSwift" */,
 				3B7CC0B724A4E1FA00CB8476 /* XCRemoteSwiftPackageReference "SwiftRichString" */,
 				3B7CC0BA24A4E21B00CB8476 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				3BBAF12D24F401B800FC198F /* XCRemoteSwiftPackageReference "DevelopKits" */,
+				3BBAF13024F4093B00FC198F /* XCRemoteSwiftPackageReference "RequestKits" */,
+				3B48693E24FD53B2004D4F5D /* XCRemoteSwiftPackageReference "SwifterSwift" */,
 			);
 			productRefGroup = 3B6FB346247D7FD1002865DF /* Products */;
 			projectDirPath = "";
@@ -598,10 +589,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B7CC13C24A4E6EE00CB8476 /* Colors.xcassets in Resources */,
+				3B48693824FD4E37004D4F5D /* ListCurrenciesTicker.storyboard in Resources */,
 				3B7CC17124A4FAD000CB8476 /* Charts.storyboard in Resources */,
 				3B6FB358247D7FD2002865DF /* LaunchScreen.storyboard in Resources */,
 				3B6FB355247D7FD2002865DF /* Assets.xcassets in Resources */,
-				3B7CC16224A4FAA900CB8476 /* Wallets.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,7 +673,6 @@
 			files = (
 				3B7CC11924A4E6B400CB8476 /* NavigationBarVisible.swift in Sources */,
 				3B7CC17424A4FAD000CB8476 /* ChartsViewController.swift in Sources */,
-				3B7CC15824A4FA8E00CB8476 /* DashboardViewController.swift in Sources */,
 				3B7CC17624A4FAD000CB8476 /* ChartsInteractor.swift in Sources */,
 				3B7CC11824A4E6B400CB8476 /* AppFont.swift in Sources */,
 				3B7CC14224A4F50D00CB8476 /* Log.swift in Sources */,
@@ -699,46 +689,46 @@
 				3B7CC10B24A4E6B400CB8476 /* CoreDataService.swift in Sources */,
 				3B7CC13424A4E6B400CB8476 /* UserDefaultPropertiesWrapper.swift in Sources */,
 				3B7CC12124A4E6B400CB8476 /* BaseWireframe.swift in Sources */,
+				3B22A30C24FA976A00380640 /* SwiftRichString.swift in Sources */,
 				3B7CC11424A4E6B400CB8476 /* CommonInitializer.swift in Sources */,
+				3BC800F824FD448000CB39FB /* ErrorShowable.swift in Sources */,
 				3B7CC11524A4E6B400CB8476 /* Utilities.swift in Sources */,
-				3B7CC16324A4FAA900CB8476 /* WalletsInterfaces.swift in Sources */,
 				3B7CC10A24A4E6B400CB8476 /* Constant.swift in Sources */,
 				3B7CC17224A4FAD000CB8476 /* ChartsInterfaces.swift in Sources */,
-				3B7CC16424A4FAA900CB8476 /* WalletsPresenter.swift in Sources */,
 				3B7CC12224A4E6B400CB8476 /* FormatterInterface.swift in Sources */,
 				3B7CC13324A4E6B400CB8476 /* UserDefaultService.swift in Sources */,
-				3B7CC15924A4FA8E00CB8476 /* DashboardWireframe.swift in Sources */,
+				3B48693D24FD4E37004D4F5D /* ListCurrenciesTickerWireframe.swift in Sources */,
 				3B7CC13624A4E6B400CB8476 /* BaseTableViewCell.swift in Sources */,
+				3B48693B24FD4E37004D4F5D /* ListCurrenciesTickerViewController.swift in Sources */,
 				3B7CC10F24A4E6B400CB8476 /* AppDelegate.swift in Sources */,
 				3B7CC12524A4E6B400CB8476 /* ViewInterface.swift in Sources */,
 				3B7CC11324A4E6B400CB8476 /* NetworkInitializer.swift in Sources */,
-				3B7CC15624A4FA8E00CB8476 /* DashboardInterfaces.swift in Sources */,
 				3B7CC11D24A4E6B400CB8476 /* UIButton.swift in Sources */,
+				3BC800F624FD41AF00CB39FB /* CurrenciesTicker.swift in Sources */,
 				3B7CC12724A4E6B400CB8476 /* RoundShadowView.swift in Sources */,
-				3B7CC16524A4FAA900CB8476 /* WalletsViewController.swift in Sources */,
 				3B7CC12A24A4E6B400CB8476 /* LoadingView.swift in Sources */,
-				3B7CC16724A4FAA900CB8476 /* WalletsInteractor.swift in Sources */,
-				3B7CC16824A4FAA900CB8476 /* WalletsWireframe.swift in Sources */,
 				3B7CC10E24A4E6B400CB8476 /* ApplicationService.swift in Sources */,
+				3B48693924FD4E37004D4F5D /* ListCurrenciesTickerInterfaces.swift in Sources */,
 				3B7CC11224A4E6B400CB8476 /* LoggerInitializer.swift in Sources */,
 				3B7CC11E24A4E6B400CB8476 /* UIViewController.swift in Sources */,
 				3B7CC11724A4E6B400CB8476 /* BaseXibView.swift in Sources */,
-				3B7CC16624A4FAA900CB8476 /* WalletsFormatter.swift in Sources */,
 				3B7CC12424A4E6B400CB8476 /* PresenterInterface.swift in Sources */,
 				3B7CC11F24A4E6B400CB8476 /* UINavigationController.swift in Sources */,
 				3B7CC17324A4FAD000CB8476 /* ChartsPresenter.swift in Sources */,
 				3B7CC10C24A4E6B400CB8476 /* PluggableApplicationDelegate.swift in Sources */,
+				3B22A30E24FA990700380640 /* ThemeInitializer.swift in Sources */,
 				3B7CC11124A4E6B400CB8476 /* CrashReporterInitializer.swift in Sources */,
 				3B7CC17524A4FAD000CB8476 /* ChartsFormatter.swift in Sources */,
 				3B7CC11624A4E6B400CB8476 /* typealias.swift in Sources */,
+				3B48693C24FD4E37004D4F5D /* ListCurrenciesTickerInteractor.swift in Sources */,
 				3B7CC13724A4E6B400CB8476 /* BaseCollectionViewCell.swift in Sources */,
 				3B7CC11B24A4E6B400CB8476 /* NSObject.swift in Sources */,
 				3B7CC12D24A4E6B400CB8476 /* APIErrorResponse.swift in Sources */,
 				3B7CC12F24A4E6B400CB8476 /* APIListResponse.swift in Sources */,
-				3B7CC15724A4FA8E00CB8476 /* DashboardPresenter.swift in Sources */,
 				3B7CC11024A4E6B400CB8476 /* Initializable.swift in Sources */,
 				3B7CC11C24A4E6B400CB8476 /* Encodable.swift in Sources */,
 				3B7CC12E24A4E6B400CB8476 /* APIResponse.swift in Sources */,
+				3B48693A24FD4E37004D4F5D /* ListCurrenciesTickerPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -821,7 +811,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -875,7 +865,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -904,7 +894,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.quangnghiadev.iCrypto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -927,7 +917,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.quangnghiadev.iCrypto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1008,6 +998,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3B48693E24FD53B2004D4F5D /* XCRemoteSwiftPackageReference "SwifterSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwifterSwift/SwifterSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
 		3B7CC0A124A4E0AB00CB8476 /* XCRemoteSwiftPackageReference "RxSwiftExt" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RxSwiftCommunity/RxSwiftExt";
@@ -1016,36 +1014,12 @@
 				minimumVersion = 5.2.0;
 			};
 		};
-		3B7CC0A424A4E15300CB8476 /* XCRemoteSwiftPackageReference "teqnetwork" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "ssh://git@git.teqnological.asia:10022/iOS/teqnetwork.git";
-			requirement = {
-				branch = feature/v2;
-				kind = branch;
-			};
-		};
 		3B7CC0A724A4E18B00CB8476 /* XCRemoteSwiftPackageReference "R.swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/mac-cain13/R.swift.Library";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 5.2.0;
-			};
-		};
-		3B7CC0AA24A4E1A400CB8476 /* XCRemoteSwiftPackageReference "Then" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/devxoul/Then";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.7.0;
-			};
-		};
-		3B7CC0AD24A4E1BD00CB8476 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.1.1;
 			};
 		};
 		3B7CC0B724A4E1FA00CB8476 /* XCRemoteSwiftPackageReference "SwiftRichString" */ = {
@@ -1064,53 +1038,59 @@
 				minimumVersion = 5.0.1;
 			};
 		};
+		3BBAF12D24F401B800FC198F /* XCRemoteSwiftPackageReference "DevelopKits" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nghiadev95/DevelopKits";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3BBAF13024F4093B00FC198F /* XCRemoteSwiftPackageReference "RequestKits" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nghiadev95/RequestKits";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3B7CC0A224A4E0AB00CB8476 /* RxSwiftExt */ = {
+		3B48693F24FD53B2004D4F5D /* SwifterSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B48693E24FD53B2004D4F5D /* XCRemoteSwiftPackageReference "SwifterSwift" */;
+			productName = SwifterSwift;
+		};
+		3BBAF13324F40A7400FC198F /* RxSwiftExt */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3B7CC0A124A4E0AB00CB8476 /* XCRemoteSwiftPackageReference "RxSwiftExt" */;
 			productName = RxSwiftExt;
 		};
-		3B7CC0A524A4E15300CB8476 /* TEQNetwork */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3B7CC0A424A4E15300CB8476 /* XCRemoteSwiftPackageReference "teqnetwork" */;
-			productName = TEQNetwork;
-		};
-		3B7CC0A824A4E18B00CB8476 /* Rswift */ = {
+		3BBAF13524F40A7400FC198F /* Rswift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3B7CC0A724A4E18B00CB8476 /* XCRemoteSwiftPackageReference "R.swift" */;
 			productName = Rswift;
 		};
-		3B7CC0AB24A4E1A400CB8476 /* Then */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3B7CC0AA24A4E1A400CB8476 /* XCRemoteSwiftPackageReference "Then" */;
-			productName = Then;
-		};
-		3B7CC0AE24A4E1BD00CB8476 /* RxRelay */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3B7CC0AD24A4E1BD00CB8476 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxRelay;
-		};
-		3B7CC0B024A4E1BD00CB8476 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3B7CC0AD24A4E1BD00CB8476 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-		3B7CC0B224A4E1BD00CB8476 /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3B7CC0AD24A4E1BD00CB8476 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
-		};
-		3B7CC0B824A4E1FA00CB8476 /* SwiftRichString */ = {
+		3BBAF13724F40A7400FC198F /* SwiftRichString */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3B7CC0B724A4E1FA00CB8476 /* XCRemoteSwiftPackageReference "SwiftRichString" */;
 			productName = SwiftRichString;
 		};
-		3B7CC0BB24A4E21B00CB8476 /* SnapKit */ = {
+		3BBAF13924F40A7400FC198F /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3B7CC0BA24A4E21B00CB8476 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		3BBAF13B24F40A7400FC198F /* DevelopKits */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BBAF12D24F401B800FC198F /* XCRemoteSwiftPackageReference "DevelopKits" */;
+			productName = DevelopKits;
+		};
+		3BBAF13D24F40A7400FC198F /* RequestKits */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BBAF13024F4093B00FC198F /* XCRemoteSwiftPackageReference "RequestKits" */;
+			productName = RequestKits;
 		};
 /* End XCSwiftPackageProductDependency section */
 

@@ -3,10 +3,9 @@
 //  MovieApp
 //
 //  Created by Nghia Nguyen on 1/16/20.
-//  Copyright © 2020 Teqnological Asia. All rights reserved.
+//  Copyright © 2020 Nghia Nguyen. All rights reserved.
 //
 
-import SnapKit
 import UIKit
 
 class LoadingView: UIView {
@@ -28,12 +27,29 @@ class LoadingView: UIView {
         viewSettings()
     }
 
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        layer.cornerRadius = 5
+        layer.masksToBounds = true
+    }
+
     func viewSettings() {
+        backgroundColor = .white
         addSubview(activityIndicatorView)
-        activityIndicatorView.snp.makeConstraints { maker in
-            maker.center.equalToSuperview()
-            maker.width.height.equalTo(50)
-        }
+        activityIndicatorView.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            NSLayoutConstraint(item: activityIndicatorView, attribute: .centerX, relatedBy: .equal, toItem: self, attribute: .centerX, multiplier: 1, constant: 0),
+            NSLayoutConstraint(item: activityIndicatorView, attribute: .centerY, relatedBy: .equal, toItem: self, attribute: .centerY, multiplier: 1, constant: 0),
+            NSLayoutConstraint(item: activityIndicatorView, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 50),
+            NSLayoutConstraint(item: activityIndicatorView, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 50)
+        ])
+    }
+
+    func startAnimating() {
         activityIndicatorView.startAnimating()
+    }
+
+    func stopAnimating() {
+        activityIndicatorView.stopAnimating()
     }
 }

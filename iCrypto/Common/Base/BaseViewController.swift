@@ -8,8 +8,7 @@
 
 import UIKit
 
-class BaseViewController: UIViewController {
-
+class BaseViewController: UIViewController, ErrorShowable, HasLoadingIndicator {
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }

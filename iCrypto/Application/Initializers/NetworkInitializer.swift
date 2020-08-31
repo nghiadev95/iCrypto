@@ -6,10 +6,12 @@
 //  Copyright © 2020 Nghia Nguyen. All rights reserved.
 //
 
-import TEQNetwork
+import RequestKits
 
 class NetworkInitializer: Initializable {
     func performInitialization() {
-        TEQNetworkQueueManager.instance.config(.default)
+        RequestManager.instance.updateMaxConcurrentOperationCount(5)
+        DownloadManager.instance.updateMaxConcurrentOperationCount(2)
+        UploadManager.instance.updateMaxConcurrentOperationCount(2)
     }
 }

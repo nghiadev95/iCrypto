@@ -7,7 +7,6 @@
 //
 
 import Alamofire
-import SwiftyBeaver
 import UIKit
 
 protocol BootApplicationService: ApplicationService {}
@@ -17,7 +16,8 @@ final class BootApplicationManager: NSObject, BootApplicationService {
 
     lazy var initializers: [Initializable] = [
         CrashReporterInitializer(),
-        LoggerInitializer()
+        LoggerInitializer(),
+        ThemeInitializer()
     ]
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
@@ -27,12 +27,12 @@ final class BootApplicationManager: NSObject, BootApplicationService {
 
         // MARK: Run app
 
-//        let initialController = UINavigationController()
-//        initialController.setRootWireframe(OnboardingWireframe())
-//
-//        self.window = UIWindow(frame: UIScreen.main.bounds)
-//        self.window?.rootViewController = initialController
-//        self.window?.makeKeyAndVisible()
+        let initialController = UINavigationController()
+        initialController.setRootWireframe(ListCurrenciesTickerWireframe())
+
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = initialController
+        self.window?.makeKeyAndVisible()
 
         return true
     }
