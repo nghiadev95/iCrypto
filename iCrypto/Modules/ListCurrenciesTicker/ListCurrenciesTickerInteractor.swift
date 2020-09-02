@@ -13,50 +13,18 @@ import Foundation
 import RequestKits
 import RxSwift
 
-class ParamKeyRequestAdapter: RequestAdapter {
-    func adapt(_ urlRequest: URLRequest, for session: Session, completion: @escaping (Result<URLRequest, Error>) -> Void) {
-        var urlRequest = urlRequest
-        do {
-            urlRequest = try URLEncoding.default.encode(urlRequest, with: ["key": "3c11562f064b0603f47f340478d2e719"])
-            completion(.success(urlRequest))
-        } catch {
-            completion(.failure(error))
-        }
-    }
-}
-
 final class ListCurrenciesTickerInteractor {
-    private let network: Network
+    private let currenciesTickerUseCase: CurrenciesTickerUseCase
 
-    init(network: Network = Network(config: NetworkConfig(requestAdapters: [ParamKeyRequestAdapter()]))) {
-        self.network = network
+    init(currenciesTickerUseCase: CurrenciesTickerUseCase) {
+        self.currenciesTickerUseCase = currenciesTickerUseCase
     }
 }
 
 // MARK: - Extensions -
 
 extension ListCurrenciesTickerInteractor: ListCurrenciesTickerInteractorInterface {
-    func getListCurrenciesTicker() -> Observable<[CurrenciesTicker]> {
-        network.rxRequest(requestable: GetListCurrenciesTickerRequest(currenciesIds: ["BTC", "ETH", "XRP"]))
+    func getListCurrenciesTicker(currenciesSymbols: [String]) -> Observable<[CurrenciesTicker]> {
+        return currenciesTickerUseCase.getListCurrenciesTicker(currenciesSymbols: currenciesSymbols)
     }
-}
-
-struct GetListCurrenciesTickerRequest: Requestable {
-    var baseURL: URL {
-        return URL(string: "https://api.nomics.com")!
-    }
-
-    var path: String {
-        return "/v1/currencies/ticker"
-    }
-
-    var method: HTTPMethod {
-        return .get
-    }
-
-    var task: Task {
-        return .requestParameters(parameters: ["ids": currenciesIds.joined(separator: ",")], encoding: URLEncoding.default)
-    }
-
-    let currenciesIds: [String]
 }

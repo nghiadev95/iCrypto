@@ -11,12 +11,12 @@
 import UIKit
 import RxSwift
 
-enum WalletsNavigationOption {
+enum ListCurrenciesTickerNavigationOption {
     case detail(CurrenciesTicker)
 }
 
 protocol ListCurrenciesTickerWireframeInterface: WireframeInterface {
-    func navigate(to option: WalletsNavigationOption)
+    func navigate(to option: ListCurrenciesTickerNavigationOption)
 }
 
 protocol ListCurrenciesTickerViewInterface: ViewInterface, ErrorShowable {
@@ -33,5 +33,5 @@ protocol ListCurrenciesTickerPresenterInterface: PresenterInterface {
 }
 
 protocol ListCurrenciesTickerInteractorInterface: InteractorInterface {
-    func getListCurrenciesTicker() -> Observable<[CurrenciesTicker]>
+    func getListCurrenciesTicker(currenciesSymbols: [String]) -> Observable<[CurrenciesTicker]>
 }

@@ -10,5 +10,7 @@ import Foundation
 
 struct Constants {
     struct API {
+        static let baseUrl = URL(string: "https://api.nomics.com")!
+        static let apiKey = "3c11562f064b0603f47f340478d2e719"
     }
 }

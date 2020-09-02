@@ -34,7 +34,7 @@ final class ListCurrenciesTickerPresenter {
 
 extension ListCurrenciesTickerPresenter: ListCurrenciesTickerPresenterInterface {
     func getListCurrenciesTicker() {
-        interactor.getListCurrenciesTicker().subscribe(onNext: { [weak self] response in
+        interactor.getListCurrenciesTicker(currenciesSymbols: ["BTC", "ETH", "XLM"]).subscribe(onNext: { [weak self] response in
             self?.currenciesTickers = response
             self?.view.reloadData()
         }, onError: { [weak self] error in

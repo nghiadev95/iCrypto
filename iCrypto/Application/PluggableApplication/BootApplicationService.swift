@@ -28,7 +28,7 @@ final class BootApplicationManager: NSObject, BootApplicationService {
         // MARK: Run app
 
         let initialController = UINavigationController()
-        initialController.setRootWireframe(ListCurrenciesTickerWireframe())
+        initialController.setRootWireframe(ListCurrenciesTickerWireframe(currenciesTickerUseCase: NetworkUseCaseProvider().makeCurrenciesTickerUseCase()))
 
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.rootViewController = initialController

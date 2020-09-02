@@ -8,6 +8,7 @@
 
 import UIKit
 import DevelopKits
+import SwifterSwift
 
 protocol ErrorShowable {
     func showErrorPopup(message: String)

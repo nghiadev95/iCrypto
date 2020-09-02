@@ -18,11 +18,11 @@ final class ListCurrenciesTickerWireframe: BaseWireframe {
 
     // MARK: - Module setup -
 
-    init() {
+    init(currenciesTickerUseCase: CurrenciesTickerUseCase) {
         let moduleViewController = storyboard.instantiateViewController(ofType: ListCurrenciesTickerViewController.self)
         super.init(viewController: moduleViewController)
 
-        let interactor = ListCurrenciesTickerInteractor()
+        let interactor = ListCurrenciesTickerInteractor(currenciesTickerUseCase: currenciesTickerUseCase)
         let presenter = ListCurrenciesTickerPresenter(view: moduleViewController, interactor: interactor, wireframe: self)
         moduleViewController.presenter = presenter
     }
@@ -32,7 +32,7 @@ final class ListCurrenciesTickerWireframe: BaseWireframe {
 // MARK: - Extensions -
 
 extension ListCurrenciesTickerWireframe: ListCurrenciesTickerWireframeInterface {
-    func navigate(to option: WalletsNavigationOption) {
+    func navigate(to option: ListCurrenciesTickerNavigationOption) {
 
     }
 }
