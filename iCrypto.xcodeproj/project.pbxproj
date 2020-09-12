@@ -54,7 +54,6 @@
 		3B7CC12924A4E6B400CB8476 /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC0EE24A4E6B400CB8476 /* RoundedImageView.swift */; };
 		3B7CC12A24A4E6B400CB8476 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC0EF24A4E6B400CB8476 /* LoadingView.swift */; };
 		3B7CC13324A4E6B400CB8476 /* UserDefaultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC10324A4E6B400CB8476 /* UserDefaultService.swift */; };
-		3B7CC13424A4E6B400CB8476 /* UserDefaultPropertiesWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC10424A4E6B400CB8476 /* UserDefaultPropertiesWrapper.swift */; };
 		3B7CC13524A4E6B400CB8476 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC10624A4E6B400CB8476 /* BaseViewController.swift */; };
 		3B7CC13624A4E6B400CB8476 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC10724A4E6B400CB8476 /* BaseTableViewCell.swift */; };
 		3B7CC13724A4E6B400CB8476 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC10824A4E6B400CB8476 /* BaseCollectionViewCell.swift */; };
@@ -64,6 +63,8 @@
 		3B7CC14224A4F50D00CB8476 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CC14124A4F50D00CB8476 /* Log.swift */; };
 		3B9E75A724FFA52B00CA3B90 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E75A624FFA52B00CA3B90 /* Network.swift */; };
 		3B9E75A924FFA63B00CA3B90 /* NetworkUseCaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E75A824FFA63B00CA3B90 /* NetworkUseCaseProvider.swift */; };
+		3B9EAAFA250CA437007AAA11 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 3B9EAAF9250CA437007AAA11 /* KeychainAccess */; };
+		3B9EAAFD250CA4CA007AAA11 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9EAAFC250CA4CA007AAA11 /* KeychainService.swift */; };
 		3BBAF13424F40A7400FC198F /* RxSwiftExt in Frameworks */ = {isa = PBXBuildFile; productRef = 3BBAF13324F40A7400FC198F /* RxSwiftExt */; };
 		3BBAF13624F40A7400FC198F /* Rswift in Frameworks */ = {isa = PBXBuildFile; productRef = 3BBAF13524F40A7400FC198F /* Rswift */; };
 		3BBAF13824F40A7400FC198F /* SwiftRichString in Frameworks */ = {isa = PBXBuildFile; productRef = 3BBAF13724F40A7400FC198F /* SwiftRichString */; };
@@ -159,7 +160,6 @@
 		3B7CC0EE24A4E6B400CB8476 /* RoundedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
 		3B7CC0EF24A4E6B400CB8476 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		3B7CC10324A4E6B400CB8476 /* UserDefaultService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultService.swift; sourceTree = "<group>"; };
-		3B7CC10424A4E6B400CB8476 /* UserDefaultPropertiesWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultPropertiesWrapper.swift; sourceTree = "<group>"; };
 		3B7CC10624A4E6B400CB8476 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		3B7CC10724A4E6B400CB8476 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 		3B7CC10824A4E6B400CB8476 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -169,6 +169,7 @@
 		3B7CC14124A4F50D00CB8476 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		3B9E75A624FFA52B00CA3B90 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		3B9E75A824FFA63B00CA3B90 /* NetworkUseCaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUseCaseProvider.swift; sourceTree = "<group>"; };
+		3B9EAAFC250CA4CA007AAA11 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
 		3BC090EC24FF9B95001233F9 /* UseCaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseProvider.swift; sourceTree = "<group>"; };
 		3BC090EF24FF9CE0001233F9 /* NetworkCurrenciesTickerUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCurrenciesTickerUseCase.swift; sourceTree = "<group>"; };
 		3BC090F424FF9D66001233F9 /* GetListCurrenciesTickerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetListCurrenciesTickerRequest.swift; sourceTree = "<group>"; };
@@ -188,6 +189,7 @@
 				3B47599E24FE9BD300E99854 /* RxCocoa in Frameworks */,
 				3BBAF13C24F40A7400FC198F /* DevelopKits in Frameworks */,
 				3B48694024FD53B2004D4F5D /* SwifterSwift in Frameworks */,
+				3B9EAAFA250CA437007AAA11 /* KeychainAccess in Frameworks */,
 				3B7CC0C224A4E53100CB8476 /* FLEX.framework in Frameworks */,
 				3BBAF13A24F40A7400FC198F /* SnapKit in Frameworks */,
 				3BC090F224FF9D1F001233F9 /* RxSwift in Frameworks */,
@@ -413,6 +415,7 @@
 			isa = PBXGroup;
 			children = (
 				3B7CC0F124A4E6B400CB8476 /* Network */,
+				3B9EAAFB250CA4B6007AAA11 /* Keychain */,
 				3B7CC0FD24A4E6B400CB8476 /* LocalStorage */,
 			);
 			path = Service;
@@ -454,7 +457,6 @@
 			isa = PBXGroup;
 			children = (
 				3B7CC10324A4E6B400CB8476 /* UserDefaultService.swift */,
-				3B7CC10424A4E6B400CB8476 /* UserDefaultPropertiesWrapper.swift */,
 			);
 			path = UserDefault;
 			sourceTree = "<group>";
@@ -502,6 +504,14 @@
 			children = (
 			);
 			path = Database;
+			sourceTree = "<group>";
+		};
+		3B9EAAFB250CA4B6007AAA11 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				3B9EAAFC250CA4CA007AAA11 /* KeychainService.swift */,
+			);
+			path = Keychain;
 			sourceTree = "<group>";
 		};
 		3BC090EE24FF9CC8001233F9 /* UseCases */ = {
@@ -573,6 +583,7 @@
 				3B47599924FE9BD300E99854 /* RxRelay */,
 				3B47599D24FE9BD300E99854 /* RxCocoa */,
 				3BC090F124FF9D1F001233F9 /* RxSwift */,
+				3B9EAAF9250CA437007AAA11 /* KeychainAccess */,
 			);
 			productName = iCrypto;
 			productReference = 3B6FB345247D7FD1002865DF /* iCrypto.app */;
@@ -633,6 +644,7 @@
 				3BBAF13024F4093B00FC198F /* XCRemoteSwiftPackageReference "RequestKits" */,
 				3B48693E24FD53B2004D4F5D /* XCRemoteSwiftPackageReference "SwifterSwift" */,
 				3B47599824FE9BD300E99854 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				3B9EAAF8250CA437007AAA11 /* XCRemoteSwiftPackageReference "KeychainAccessKits" */,
 			);
 			productRefGroup = 3B6FB346247D7FD1002865DF /* Products */;
 			projectDirPath = "";
@@ -750,7 +762,6 @@
 				3BC090EB24FF98EF001233F9 /* PriceChangeOfDayEntity.swift in Sources */,
 				3BC090E824FF98E1001233F9 /* CurrenciesTicker.swift in Sources */,
 				3BC090ED24FF9B95001233F9 /* UseCaseProvider.swift in Sources */,
-				3B7CC13424A4E6B400CB8476 /* UserDefaultPropertiesWrapper.swift in Sources */,
 				3B7CC12124A4E6B400CB8476 /* BaseWireframe.swift in Sources */,
 				3B22A30C24FA976A00380640 /* SwiftRichString.swift in Sources */,
 				3B7CC11424A4E6B400CB8476 /* CommonInitializer.swift in Sources */,
@@ -769,6 +780,7 @@
 				3B7CC11D24A4E6B400CB8476 /* UIButton.swift in Sources */,
 				3B7CC12724A4E6B400CB8476 /* RoundShadowView.swift in Sources */,
 				3B7CC12A24A4E6B400CB8476 /* LoadingView.swift in Sources */,
+				3B9EAAFD250CA4CA007AAA11 /* KeychainService.swift in Sources */,
 				3B7CC10E24A4E6B400CB8476 /* ApplicationService.swift in Sources */,
 				3B48693924FD4E37004D4F5D /* ListCurrenciesTickerInterfaces.swift in Sources */,
 				3BC090E924FF98E1001233F9 /* PriceChangeOfDay.swift in Sources */,
@@ -1108,6 +1120,14 @@
 				minimumVersion = 5.0.1;
 			};
 		};
+		3B9EAAF8250CA437007AAA11 /* XCRemoteSwiftPackageReference "KeychainAccessKits" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nghiadev95/KeychainAccessKits";
+			requirement = {
+				branch = "feature/add-support-properties-wrapper";
+				kind = branch;
+			};
+		};
 		3BBAF12D24F401B800FC198F /* XCRemoteSwiftPackageReference "DevelopKits" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/nghiadev95/DevelopKits";
@@ -1141,6 +1161,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3B48693E24FD53B2004D4F5D /* XCRemoteSwiftPackageReference "SwifterSwift" */;
 			productName = SwifterSwift;
+		};
+		3B9EAAF9250CA437007AAA11 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B9EAAF8250CA437007AAA11 /* XCRemoteSwiftPackageReference "KeychainAccessKits" */;
+			productName = KeychainAccess;
 		};
 		3BBAF13324F40A7400FC198F /* RxSwiftExt */ = {
 			isa = XCSwiftPackageProductDependency;
