@@ -1,5 +1,5 @@
 //
-//  GetListCurrenciesTickerRequest.swift
+//  GetListCurrencyTickerRequest.swift
 //  iCrypto
 //
 //  Created by Stuart Nguyen on 9/2/20.
@@ -10,7 +10,9 @@ import Alamofire
 import Foundation
 import RequestKits
 
-struct GetListCurrenciesTickerRequest: Requestable {
+struct GetListCurrencyTickerRequest: Requestable {
+    typealias Response = [CurrencyTickerEntity]
+
     var baseURL: URL {
         return Constants.API.baseUrl
     }
@@ -24,8 +26,8 @@ struct GetListCurrenciesTickerRequest: Requestable {
     }
 
     var task: Task {
-        return .requestParameters(parameters: ["ids": currenciesSymbols.joined(separator: ",")], encoding: URLEncoding.default)
+        return .requestParameters(parameters: ["ids": currencySymbols.joined(separator: ",")], encoding: URLEncoding.default)
     }
 
-    let currenciesSymbols: [String]
+    let currencySymbols: [String]
 }

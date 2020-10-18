@@ -6,10 +6,12 @@
 //  Copyright © 2020 Nghia Nguyen. All rights reserved.
 //
 
+import Domain
 import Foundation
 
-struct NetworkUseCaseProvider: UseCaseProvider {
-    func makeCurrenciesTickerUseCase() -> CurrenciesTickerUseCase {
-        return NetworkCurrenciesTickerUseCase()
+public struct NetworkUseCaseProvider: Domain.UseCaseProvider {
+    public init() {}
+    public func makeCurrencyTickerUseCase() -> Domain.CurrencyTickerUseCase {
+        return NetworkCurrencyTickerUseCase()
     }
 }

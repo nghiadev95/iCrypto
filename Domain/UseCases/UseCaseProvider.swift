@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol UseCaseProvider {
-    func makeCurrenciesTickerUseCase() -> CurrenciesTickerUseCase
+public protocol UseCaseProvider {
+    func makeCurrencyTickerUseCase() -> CurrencyTickerUseCase
 }

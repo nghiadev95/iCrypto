@@ -8,7 +8,12 @@
 
 import Foundation
 
-struct PriceChangeOfDay {
+public struct PriceChangeOfDay {
     let value: String
     let percent: String
+
+    public init(value: String, percent: String) {
+        self.value = value
+        self.percent = percent
+    }
 }

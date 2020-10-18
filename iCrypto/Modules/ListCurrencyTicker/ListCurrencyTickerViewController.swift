@@ -1,5 +1,5 @@
 //
-//  ListCurrenciesTickerViewController.swift
+//  ListCurrencyTickerViewController.swift
 //  iCrypto
 //
 //  Created by Nguyen Nghia on 8/31/20.
@@ -10,19 +10,19 @@
 
 import UIKit
 
-final class ListCurrenciesTickerViewController: BaseViewController {
+final class ListCurrencyTickerViewController: BaseViewController {
     @IBOutlet private var tableView: UITableView!
 
     // MARK: - Public properties -
 
-    var presenter: ListCurrenciesTickerPresenterInterface!
+    var presenter: ListCurrencyTickerPresenterInterface!
 
     // MARK: - Lifecycle -
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        presenter.getListCurrenciesTicker()
+        presenter.getListCurrencyTicker()
     }
 
     private func setupView() {
@@ -34,21 +34,21 @@ final class ListCurrenciesTickerViewController: BaseViewController {
 
 // MARK: - Extensions -
 
-extension ListCurrenciesTickerViewController: ListCurrenciesTickerViewInterface {
+extension ListCurrencyTickerViewController: ListCurrencyTickerViewInterface {
     func reloadData() {
         tableView.reloadData()
     }
 }
 
-extension ListCurrenciesTickerViewController: UITableViewDataSource {
+extension ListCurrencyTickerViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return presenter.numberOrItems(in: section)
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: UITableViewCell.className, for: indexPath)
-        let currenciesTicker = presenter.item(at: indexPath)
-        cell.textLabel?.text = currenciesTicker?.name
+        let currencyTicker = presenter.item(at: indexPath)
+        cell.textLabel?.text = currencyTicker?.name
         return cell
     }
 
@@ -57,7 +57,7 @@ extension ListCurrenciesTickerViewController: UITableViewDataSource {
     }
 }
 
-extension ListCurrenciesTickerViewController: UITableViewDelegate {
+extension ListCurrencyTickerViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         presenter.didSelectItem(at: indexPath)
     }

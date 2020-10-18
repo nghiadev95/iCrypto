@@ -1,5 +1,5 @@
 //
-//  CurrenciesTickerEntity.swift
+//  CurrencyTickerEntity.swift
 //  NetworkPlatform
 //
 //  Created by Stuart Nguyen on 9/1/20.
@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import Domain
 
-struct CurrenciesTickerEntity: Codable {
+struct CurrencyTickerEntity: Codable {
     let identifier: String
     let currency: String
     let symbol: String
@@ -41,8 +42,8 @@ struct CurrenciesTickerEntity: Codable {
     }
 }
 
-extension CurrenciesTickerEntity {
-    func asDomain() -> CurrenciesTicker {
+extension CurrencyTickerEntity {
+    func asDomain() -> Domain.CurrencyTicker {
         return .init(identifier: identifier,
                      currency: currency,
                      symbol: symbol,

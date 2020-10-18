@@ -8,6 +8,8 @@
 
 import Alamofire
 import UIKit
+import NetworkPlatform
+import Domain
 
 protocol BootApplicationService: ApplicationService {}
 
@@ -28,7 +30,7 @@ final class BootApplicationManager: NSObject, BootApplicationService {
         // MARK: Run app
 
         let initialController = UINavigationController()
-        initialController.setRootWireframe(ListCurrenciesTickerWireframe(currenciesTickerUseCase: NetworkUseCaseProvider().makeCurrenciesTickerUseCase()))
+        initialController.setRootWireframe(ListCurrencyTickerWireframe(currencyTickerUseCase: NetworkUseCaseProvider().makeCurrencyTickerUseCase()))
 
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.rootViewController = initialController

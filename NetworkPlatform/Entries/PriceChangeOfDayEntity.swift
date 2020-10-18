@@ -20,7 +20,7 @@ struct PriceChangeOfDayEntity: Codable {
 }
 
 extension PriceChangeOfDayEntity {
-    func asDomain() -> PriceChangeOfDay {
+    func asDomain() -> Domain.PriceChangeOfDay {
         return .init(value: value, percent: percent)
     }
 }
